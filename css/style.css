@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	src:url(../fonts/PT_Sans/PT_Sans-Web-Regular.ttf)
+	src:url(../fonts/PT_Sans/PT_Sans-Web-Bold.ttf)
+	
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 30px 0;
+	overflow: hidden;
+	font-family: 'PT_Sans';
+
+}
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 30%;
+
+}
+.logo img{
+	width: 35px;
+	height: 35px;
+	float: left;
+
+}
+.logo p{
+	float: left;
+	font-size: 30px;
+	margin-left: 10px;
+
+}
+
+.menu{
+	width: 60%;
+	overflow: hidden;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding-right: 50px;
+	padding-top: 6px;
+}
+.menu ul li a{
+	text-decoration:none;
+	color: #010101;
+	font-size: 22px;
+	font-family: 'PTSans'serif;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #fcdb00;
+	padding-top: 30px;
+	overflow: hidden;
+	padding-bottom: 80px;
+	position: relative;
+
+}
+.b_left{
+	
+	width: 32%;
+	float: left;
+
+}
+.banner_text{
+	margin-top: 60px;
+
+}
+.banner_text h2{
+	font-size: 32px;
+
+}
+.banner_text span{
+	font-size: 20px;
+	padding: 15px 0;
+	display: block;
+
+}
+.banner_text p{
+	font-size: 16px;
+	padding-bottom: 30px;
+
+}
+.b_logo img{
+	padding-right: 25px;
+
+}
+.b_right{
+	width: 35%;
+	float: right;
+
+}
+.b_right img{
+	text-align: center;
+
+}
+.riyad{
+	width: 10%;
+	position: absolute;
+	    left: 700px;
+    bottom: 30px;
+
+}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding: 100px 0;
+
+}
+.f_top{
+	width: 63%;
+	text-align: center;
+	padding-left: 200px;
+	padding-bottom: 80px;
+
+}
+.f_top h2{
+	font-size: 32px;
+
+}
+.f_top p{
+	font-size: 20px;
+
+}
+
+.f_bottom{
+	overflow: hidden;
+
+}
+.single_f{
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	padding-right: 3%;
+	padding-bottom: 90px;
+
+
+}
+.single_f img{
+	float: left;
+	    padding-left: 50px;
+
+}
+.problem{
+	width: 38px;
+}
+.single_f h2{
+	float: left;
+	font-size: 22px;
+	padding-left: 20px;
+
+}
+.single_f p{
+	float: left;
+	padding-left: 105px;
+
+}
+
+/*feature end*/
+/*footer start*/
+.footer{
+	background-color: black;
+	overflow: hidden;
+
+}
+.footer_top{
+
+	padding-top: 80px;
+
+}
+.f_text{
+	width: 60%;
+	margin: 0 auto;
+
+}
+.f_text h2{
+      font-size: 22px; 
+      color: #fcdb00;
+      text-align: center;
+      padding-bottom: 10px;
+ }
+.f_text p{ 
+color: white;
+text-align: center;
+ }
+.form{
+
+	width: 65%;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-top: 30px;
+
+}
+.form input{
+	font-size: 16px;
+	padding: 10px 0;
+    width: 80%;
+	border:none;
+	border-radius: 2px;
+	padding-left: 10px;
+
+
+}
+.form button{
+	padding: 12px 20px;
+	background-color: #fcdb00;
+	border:none;
+	border-radius: 4px;
+
+
+}
+.f_logo{
+width: 30%;
+margin: 0 auto;
+margin-top: 50px;
+
+ }
+.f_logo img{
+	padding-right: 35px;
+
+}
+
+.footer_b{
+
+	width: 20%;
+	padding: 80px 0;
+	overflow: hidden;
+	float: left;
+
+
+}
+
+.footer_b p{
+	color: white;
+	
+}
+/*footer end*/
